@@ -13,9 +13,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       <Provider store={store}>
         <BrowserRouter>
           <App />
-          {/* <h1 className="text-3xl font-bold underline">
-            Hello world!
-          </h1> */}
         </BrowserRouter>
       </Provider>
     </HelmetProvider>
